@@ -161,10 +161,9 @@
     p.title.text_font_size = "20px"
     p.min_border_top = 150
 
+    
     #第一個下拉選單
-    select = Select(title="Resource Group",  options=['FARGLORY_SAP',
-            'FG_VPN','FARGLORY_AD','FG_SMT_IT','FG_FSM','FARGLORY_WAKEUP',\
-                'FG_WEBEDS','FGCLOUD'])
+    select = Select(title="Resource Group",  options=['A','B','C','D','E','F',\'G','H'])
 
     #第二個下拉選單
     select2 = Select(title="Service Type", options=['Virtual Machine'])
@@ -180,46 +179,47 @@
     #第一個下拉選單的callback
     def update_plot(attrname, old, new):
         newSource = df1
-        if select.value == 'FARGLORY_SAP' and select3.value == 'D2 v3':
+        if select.value == 'A' and select3.value == 'D2 v3':
             newSource = df1
-        if select.value == 'FARGLORY_SAP' and select3.value == 'E8 v3':
+        if select.value == 'A' and select3.value == 'E8 v3':
             newSource = df2
-        if select.value == 'FARGLORY_SAP' and select3.value == 'D8 v3':
+        if select.value == 'A' and select3.value == 'D8 v3':
             newSource = df3
-        if select.value == 'FARGLORY_SAP' and select3.value == 'D4 v3':
+        if select.value == 'A' and select3.value == 'D4 v3':
             newSource = df4
-        if select.value == 'FARGLORY_SAP' and select3.value == 'M32ms':
+        if select.value == 'A' and select3.value == 'M32ms':
             newSource = df5    
-        if select.value == 'FARGLORY_SAP' and select3.value == 'E16 v3':
+        if select.value == 'A' and select3.value == 'E16 v3':
             newSource = df6
-        if select.value == 'FARGLORY_SAP' and select3.value == 'M32ts':
+        if select.value == 'A' and select3.value == 'M32ts':
             newSource = df7
-        if select.value == 'FARGLORY_SAP' and select3.value == 'E48 v3':
+        if select.value == 'A' and select3.value == 'E48 v3':
             newSource = df8
-        if select.value == 'FG_VPN' and select3.value == 'D2 v3':
+        if select.value == 'B' and select3.value == 'D2 v3':
             newSource = df9  
-        if select.value == 'FG_VPN' and select3.value == 'D16 v3':
+        if select.value == 'B' and select3.value == 'D16 v3':
             newSource = df10  
-        if select.value == 'FG_VPN' and select3.value == 'D2 v2':
+        if select.value == 'B' and select3.value == 'D2 v2':
             newSource = df11
-        if select.value == 'FG_VPN' and select3.value == 'D4 v3':
+        if select.value == 'B' and select3.value == 'D4 v3':
             newSource = df12
-        if select.value == 'FARGLORY_AD' and select3.value == 'D2 v3':
+        if select.value == 'C' and select3.value == 'D2 v3':
             newSource = df13 
-        if select.value == 'FG_SMT_IT' and select3.value == 'D2 v3':
+        if select.value == 'D' and select3.value == 'D2 v3':
             newSource = df14 
-        if select.value == 'FG_FSM' and select3.value == 'D2 v3':
+        if select.value == 'E' and select3.value == 'D2 v3':
             newSource = df15 
-        if select.value == 'FG_FSM' and select3.value == 'B2s':
+        if select.value == 'E' and select3.value == 'B2s':
             newSource = df16
-        if select.value == 'FARGLORY_WAKEUP' and select3.value == 'F8s v2':
+        if select.value == 'F' and select3.value == 'F8s v2':
             newSource = df17 
-        if select.value == 'FARGLORY_WAKEUP' and select3.value == 'F8':
+        if select.value == 'F' and select3.value == 'F8':
             newSource = df18 
-        if select.value == 'FG_WEBEDS' and select3.value == 'D2 v3':
+        if select.value == 'G' and select3.value == 'D2 v3':
             newSource = df19 
-        if select.value == 'FGCLOUD' and select3.value == 'D2 v2':
+        if select.value == 'H' and select3.value == 'D2 v2':
             newSource = df20 
+
 
         source.data =  newSource
 
