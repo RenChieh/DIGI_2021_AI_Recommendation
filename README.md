@@ -16,7 +16,7 @@
     * __下載 [anaconda](https://www.anaconda.com/products/individual)__
        
      * __根據下列網址操作：__
-            * [MacOS M1(Apple Silicon) 安装配置 Conda 环境](https://zhuanlan.zhihu.com/p/349295868)
+            * [MacOS M1(Apple Silicon) 安装配置 Conda 環境](https://zhuanlan.zhihu.com/p/349295868)
             * [M1配置Tensorflow](https://zhuanlan.zhihu.com/p/367512283)
             
             
@@ -54,7 +54,7 @@
 
 ## :three:Data visualization
 1. __raw data visualization__
-![](https://i.imgur.com/RSKBys6.png)   
+ ![](https://i.imgur.com/v31nDBP.png)
 ```python=
     #圖的資料
     from bokeh.models import ColumnDataSource, DatetimeTickFormatter, RadioButtonGroup, BoxAnnotation, Div, Panel, Tabs, LabelSet
