@@ -57,14 +57,9 @@
 ## :three:model tunning
 * __document：__ model(tunning) + recommendation(price recommendation)
 1. __prophet__
-
-
 ![](https://i.imgur.com/VITX3ny.png)
 2. __multichannel__
-
 ![](https://i.imgur.com/JVu3Oyp.png)
-
-
 ## :four:Data visualization
 * __document：__ finalvisualization
 
