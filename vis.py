@@ -434,7 +434,6 @@ divh = Div(text='<br>', width=320)
 div4 = Div(text='', width=490)
 div5 = Div(text='', width=25)
 
-
 div_pricing = Div(text='<br><br><br>Pricing:<br> On-demand: $0.13 / hour<br> Reserved Instance (1 year): $52.92 / month<br> Reserved Instance (3 year): $33.61 / month', style={'font-size': '130%'}, width=400)
 
 div3_lstm = Div(text='''<b>Recommend: {} (1 year) plan </b><hr><br> On-demand Price is ${} / month.<br>
