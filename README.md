@@ -3,10 +3,10 @@
 # Final project 
 
 ## :one: 建置Anaconda環境
-* __document：__ requirements.txt
+* __Document：__ requirements.txt
 
 
-1. __mac(intel)&windows__
+1. __Mac(intel)&windows__
     * __下載 [anaconda](https://www.anaconda.com/products/individual)__
        
     * __開終端機並依序輸入下令指令：__
@@ -14,7 +14,7 @@
 
 >          pip install -r requirements.txt
     
-2. __mac(m1)__
+2. __Mac(m1)__
     * __下載 [anaconda](https://www.anaconda.com/products/individual)__
        
      * __根據下列網址操作：__
@@ -23,7 +23,7 @@
             
             
 ## :two:Data analysis&preprocessing  
-* __document：__ datapreprocessing
+* __Document：__ datapreprocessing
 * __匯入資料-重新命名-切割資料取出想要的欄位-合併資料集-捨棄不需要的欄位__
 * __日期的欄位轉成日期格式-排序日期__
 ```python=
@@ -55,28 +55,28 @@
     df = meter_sku.sort_values(by='DATE')
 ```
 ## :three:model tunning
-* __document：__ model(tunning) + recommendation(price recommendation)
-1. __prophet__
+* __Document：__ model(tunning) + recommendation(price recommendation)
+1. __Prophet__
 ![](https://i.imgur.com/VITX3ny.png)
-2. __multichannel__
+2. __Multichannel__
 ![](https://i.imgur.com/JVu3Oyp.png)
 ## :four:Data visualization
-* __document：__ finalvisualization
+* __Document：__ finalvisualization
 
-1. __raw data visualization__
-    * __drop-down list__
+1. __Raw data visualization__
+    * __Drop-down list__
 ![](https://i.imgur.com/RSKBys6.png)   
   
     
 
-2. __model predict visualization__
+2. __Model predict visualization__
 ![](https://i.imgur.com/uN2L2sN.png)
 ![](https://i.imgur.com/IgDf28c.png)
 
     
     
     
-3. __recommendation visualization__
+3. __Recommendation visualization__
 ![](https://i.imgur.com/31CMX1R.png)
     
 * __開啟bokeh的方式:__ 打開termianal，並移到存有bokeh檔案的目錄並輸入以下指令：
