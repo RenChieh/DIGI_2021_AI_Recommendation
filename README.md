@@ -1,7 +1,7 @@
 ![](https://i.imgur.com/ajPzVX4.png)
 
 # Final project 
-
+![](flow.png)
 ## :one: 建置Anaconda環境
 * __Document：__ requirements.txt
 
